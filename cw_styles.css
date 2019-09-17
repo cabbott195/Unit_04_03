@@ -54,32 +54,94 @@ body > header{
     background-color: rgb(97, 97, 211);
 }
 /*step13*/
-:first-child h1{
-    font-size:4vw;
+body >header >h1{
+    font-size: 4vw;
     color: rgba(255, 255, 255, 0.8);
     font-family: Limelight, cursive;
     margin: 0px;
 }
-
+/*number 14*/
+body >header >h1 >span {
+    color: rgba(255, 255, 255, 0.4);
+}
 /* Navigation Styles */
-
-
-
+/*number15*/
+nav#mainLinks {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+/*number 16*/
+nav#mainLinks a:visited,nav#mainLinks a:link{
+    font-family: white;
+}
+/*number 17*/
+nav#mainLinks a:hover, nav#mainLinks a:active {
+    color:white;
+    opacity: 0.8em;
+    background-color: rgba(51, 51, 51, 0.5);
+}
 
 /* Outline Styles */
-
-
-
-
+/*number 18*/
+nav#outline{
+    color: rgb(51, 51, 51);
+    font-size: 0.8em;
+}
+/*number 19*/
+h1 nav{
+    text-align: center;
+}
+/*number 20*/
+nav#outline > ol{
+    line-height: 2em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    list-style:upper-roman;
+} 
+/*number 21*/
+nav#outline >ol ol{
+    list-style: upper-alpha;
+}
+/*number22*/
+nav#outline a:visited, a:link{
+    color:rgb(101, 101, 101);
+}
+/*number23*/
+nav#outline a:hover, a:active{
+    color:rgb(97, 97, 211);
+    text-decoration: underline;
+}
 /* Section Styles */
-
-
-
+/*number24*/
+section{
+    background-color: rgb(220, 220, 220);
+}
+/*number25*/
+section header h1{
+    font-size: 2.2em;
+    padding-left: 10px;
+}
 
 /* Article Styles */
-
-
+/*number26*/
+h2 article{
+    font-size: 1.4em;
+}
+/*number27*/
+article p:first-of-type::first-letter{
+    font-size:2em;
+    vertical-align: baseline;
+}
 
 
 /* Aside Styles */
-
+/*number28*/
+aside{
+    font-size:0.9em;
+}
+/*number29*/
+h1 aside{
+    font-size: 1.4em;
+}
